@@ -18,6 +18,9 @@ project "Pine"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "pnpch.h"
+	pchsource "Pine/src/pnpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

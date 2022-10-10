@@ -1,9 +1,6 @@
 #pragma once
-
+#include "pnpch.h"
 #include "Pine/Core.h"
-
-#include <string>
-#include <functional>
 
 namespace Pine
 {
